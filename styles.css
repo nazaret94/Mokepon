@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Rubik+Vinyl&family=Zen+Dots&display=swap'); 
+@import url('https://fonts.google.com/share?selection.family=Lobster%20Two:wght@700');
 body{
     font-family: 'Roboto Mono',monospace;
     background-color:#BA94D1;
@@ -15,9 +16,9 @@ body{
     font-family: 'Rubik Vinyl', cursive;
 }
 .subtitulo{
-    color: #7F669D;
-    font-family: 'Zen Dots',cursive;
-    font-size:26px;
+    color: #FBFACD;
+    font-family: 'Lobster Two',cursive;
+    font-size:40px;
     display: flex;
     justify-content: center;
     
