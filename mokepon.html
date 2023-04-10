@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>MOKEPON</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+    
+        <section id="seleccionar-mascota">
+            <h1 class="titulo">Mokepon</h1>
+            <h2 class="subtitulo">Elige tu mascota:</h2>
+            <div id="contenedorTarjetas" class="tarjetas">
+
+            </div>
+            <button id="boton-mascota">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+
+            <h1 class="titulo">Mokepon</h1>
+            
+            <h2 class="subtitulo" >Elige tu ataque: </h2>
+         
+           <div id='contenedorAtaques' class="EligeAtaque">
+                    
+            </div>    
+            
+            <div id="mensajes">
+                <div id="resultado">Suerte 🤭</div>
+                
+                <section id="reiniciar">
+                    <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+            </div> 
+              
+            <div class="VidasyAtaques">
+
+                <div class="TuMokepon">
+              
+
+                    <div class="VidasJugador">
+                        <p><span id="mascota-jugador"></span></p>
+                        <p> <span id="vidas-jugador">0</span></p>  
+                    </div>
+                    
+                    <div id="ataque-del-jugador"></div>
+
+                </div>
+
+                <div class="EnemigoMokepon">
+                        
+              
+                    
+                    <div class="VidasEnemigo">
+                        <p><span id="mascota-enemigo"></span> </p>
+                        <p> <span id="vidas-enemigo">0</span> </p>
+                    </div>
+                    
+                    <div id="ataque-del-enemigo"></div>
+                </div>
+               
+                
+            </div>
+        </section>
+        <script src="./js/mokepon.js"> </script>
+    </body>
+</html>
